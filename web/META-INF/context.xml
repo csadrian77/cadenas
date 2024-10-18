@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/boletos" antiJARLocking="true" crossContext="true" debug="5" docBase="DBleo"  reloadable="false">
+  <Resource name="jdbc/DBleo" auth="Container" type="javax.sql.DataSource"
+            maxActive="300" maxIdle="20" maxWait="7000"  
+            username="postgres" password="server" driverClassName="org.postgresql.Driver"
+            url="jdbc:postgresql://127.0.0.1:5432/boletos?autoReconnect=true"/>
+</Context>

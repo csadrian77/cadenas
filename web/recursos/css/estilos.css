@@ -1,0 +1,211 @@
+/*.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:3px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+*/
+         
+.myButton {
+background: linear-gradient(to bottom, #cecece 5%, #bfcece 100%);
+    background-color: rgba(0, 0, 0, 0);
+  background-color: #768d87;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: #232324;
+
+	padding:4px 12px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+     
+ 
+       
+
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+    
+    margin: 0;
+    background-color: #dbdad6;
+}
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 250%;
+    color:#bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #3282b8;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #bbe1fa;
+    
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: #0f4c75;
+    color:#bbe1fa;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #0f4c75;
+}
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    color: #3282b8;
+}
+
+
+
+.colophon {
+    background-color: #0F3853FF;
+    height: 40px;
+}
+.sist{
+  color: #fff;
+  margin: 0px 0px 0px 12px;
+  font-size: 21px;
+}
+.sist2{
+color: #fff;
+  margin: 0px 3px 0px 0px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.tblc{
+    background: white;
+  margin: 10px 0px 0 0;
+  padding: 15px 15px 15px 15px;
+}
+.titu2{
+    background: white;
+  width: 96%;
+}
